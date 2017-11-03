@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Notifi_DetailViewController.viewDidLoad() -&gt; ():Notifi_DetailViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "subDataImagIds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.getSSEList() -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "deviceToken">
+            </PersistentString>
+            <PersistentString
+               value = "USER.deviceToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sseUrls[indexPath.row]">
+            </PersistentString>
+            <PersistentString
+               value = "cell.lb_Timer.text">
+            </PersistentString>
+            <PersistentString
+               value = "sseList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FConnectViewController.(LoginCheck(email : String) -&gt; ()).(closure #1):FConnectViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result">
+            </PersistentString>
+            <PersistentString
+               value = "response.description">
+            </PersistentString>
+            <PersistentString
+               value = "error.stringValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.(postMountainImage() -&gt; ()).(closure #1).(closure #1).(closure #1):SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "urlResponse?.statusCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.getRemainingTime(endDateTime : String, time_offset : String) -&gt; String:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sseList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.viewDidAppear(Bool) -&gt; ():CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CURRENT_SSE.ssName">
+            </PersistentString>
+            <PersistentString
+               value = "CURRENT_SSE">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.(getSSEDetail() -&gt; ()).(closure #1):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CURRENT_SSE.applicants">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.(myImageUploadRequest() -&gt; ()).(closure #1):SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.scrollViewDidScroll(UIScrollView) -&gt; ():CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollView.contentOffset.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.(getSSEList() -&gt; ()).(closure #1):ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "USER.id">
+            </PersistentString>
+            <PersistentString
+               value = "USER.deviceToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.myImageUploadRequest() -&gt; ():SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.img_Avatar.size">
+            </PersistentString>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SSENotification.initSSENotification(dic : NSDictionary?) -&gt; ():SSENotification.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FConnectViewController.LoginCheck(email : String) -&gt; ():FConnectViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.device_token">
+            </PersistentString>
+            <PersistentString
+               value = "HTTPCookieStorage.shared.cookie">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.fbname">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.viewDidLoad() -&gt; ():SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "content.contentDescription">
+            </PersistentString>
+            <PersistentString
+               value = "content.contentURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.(saveFBPostData(fb_postId : String, caption : String) -&gt; ()).(closure #1):SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parameters">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Ranks.count">
+            </PersistentString>
+            <PersistentString
+               value = "cell.lb_Likes.text">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "Likes.count">
+            </PersistentString>
+            <PersistentString
+               value = "images[indexPath.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FConnectViewController.ConnectToFacebook() -&gt; ():FConnectViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+            <PersistentString
+               value = "result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.(getSSEList() -&gt; ()).(closure #1):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "datas">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.moveToUrlDidClickedGesture(sender : UITapGestureRecognizer) -&gt; ():CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CURRENT_SSE.sseUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Applicant.initUserDataWithDictionary(value : NSDictionary?) -&gt; ():Applicant.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fb_likescount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.(GetSharescoreLikesFromFacebook(fbId : String) -&gt; ()).(closure #1).(closure #1).(closure #1):CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mylikes.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChooseUsernameViewController.(RegisterUser() -&gt; ()).(closure #1):ChooseUsernameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.postMountainImage() -&gt; ():SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.fbtokenstring">
+            </PersistentString>
+            <PersistentString
+               value = "self.img_Avatar.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.(postMountainImage() -&gt; ()).(closure #1).(closure #1):SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CURRENT_SSE.hashcode">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.fbtokenstring">
+            </PersistentString>
+            <PersistentString
+               value = "facebookAccount?.credential.oauthToken">
+            </PersistentString>
+            <PersistentString
+               value = "CURRENT_SSE.locationId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.application(UIApplication, didFinishLaunchingWithOptions : [UIApplicationLaunchOptionsKey : Any]?) -&gt; Bool:AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "d">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarViewController.(showBadgeNumber() -&gt; ()).(closure #1):TabBarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myNotifications.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FConnectViewController.getFBUserData() -&gt; ():FConnectViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.fbtokenstring">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarViewController.clicked_Buttons(sender : UIButton?) -&gt; ():TabBarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.initUserDataWithJSON(json : JSON) -&gt; ():User.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "email">
+            </PersistentString>
+            <PersistentString
+               value = "id">
+            </PersistentString>
+            <PersistentString
+               value = "fb_avatar">
+            </PersistentString>
+            <PersistentString
+               value = "user_name">
+            </PersistentString>
+            <PersistentString
+               value = "fb_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationViewController.(ClearAllClicked(Any) -&gt; ()).(closure #1):NotificationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "responseData.result.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.initUserDataWithDictionary(value : NSDictionary?) -&gt; ():User.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationViewController.ClearAllClicked(Any) -&gt; ():NotificationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "USER">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:NotificationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myNotifications">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.application(UIApplication, didReceiveRemoteNotification : [AnyHashable : Any]) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myNotifications">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.viewWillAppear(Bool) -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "refreshControl.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.(postMountainImage() -&gt; ()).(closure #1):SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "urlResponse?.statusCode">
+            </PersistentString>
+            <PersistentString
+               value = "accountStore">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Applicant.initUserDataWithDictionary(value:):Applicant.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.postImageUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarViewController.(viewDidLoad() -&gt; ()).(closure #1):TabBarViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.getRemainingTime(endDateTime : String) -&gt; String:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "date.timeIntervalSince1970">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SSEvent.initUserDataWithDictionary(value : NSDictionary?) -&gt; ():SSEvent.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.id">
+            </PersistentString>
+            <PersistentString
+               value = "locationId">
+            </PersistentString>
+            <PersistentString
+               value = "String(n_id)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CampaignViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:CampaignViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Likes.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.postFacebook(UIButton) -&gt; ():SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "forServiceType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.initAppBadge() -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "USER.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChooseUsernameViewController.RegisterUser() -&gt; ():ChooseUsernameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.device_token">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.fb_id">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.user_name">
+            </PersistentString>
+            <PersistentString
+               value = "devToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SharePhotoViewController.saveFBPostData(fb_postId : String, caption : String) -&gt; ():SharePhotoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CURRENT_SSE.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.(getSSEList() -&gt; ()).(closure #1):HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "swiftyJsonVar.toString()">
+            </PersistentString>
+            <PersistentString
+               value = "USER.deviceToken">
+            </PersistentString>
+            <PersistentString
+               value = "swiftyJsonVar[&quot;result&quot;][&quot;name&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "swiftyJsonVar[&quot;result&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
