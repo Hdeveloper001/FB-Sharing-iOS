@@ -11,6 +11,7 @@
 		0B15958C1EFB60C400307428 /* Applicant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B15958A1EFB60C400307428 /* Applicant.swift */; };
 		0B15958D1EFB60C400307428 /* SSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B15958B1EFB60C400307428 /* SSEvent.swift */; };
 		0B1713F51ECECC6D00D9100D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1713F41ECECC6D00D9100D /* PhotoViewController.swift */; };
+		0B28DD7E1FB0140000F2FEF0 /* facebook_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B28DD7D1FB0140000F2FEF0 /* facebook_share.png */; };
 		0B3040E71F3DFA8200542302 /* SSENotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3040E61F3DFA8200542302 /* SSENotification.swift */; };
 		0B43338A1F3969E200BA5F1F /* btn_close_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4333891F3969E100BA5F1F /* btn_close_big.png */; };
 		0B455A461F126EBA001FF2FF /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B455A451F126EB8001FF2FF /* btn_close.png */; };
@@ -161,6 +162,7 @@
 		0B15958B1EFB60C400307428 /* SSEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSEvent.swift; path = SSEvents/SSEvent.swift; sourceTree = "<group>"; };
 		0B1713F41ECECC6D00D9100D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		0B2855FD1E868DBB00FC9003 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		0B28DD7D1FB0140000F2FEF0 /* facebook_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_share.png; sourceTree = "<group>"; };
 		0B2F74AA1F1F953000039168 /* Sharescore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sharescore.entitlements; sourceTree = "<group>"; };
 		0B3040E61F3DFA8200542302 /* SSENotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSENotification.swift; path = SSEvents/SSENotification.swift; sourceTree = "<group>"; };
 		0B4333891F3969E100BA5F1F /* btn_close_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_big.png; sourceTree = "<group>"; };
@@ -486,6 +488,7 @@
 		0B7ED4711E71188C00AAA44E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0B28DD7D1FB0140000F2FEF0 /* facebook_share.png */,
 				0B4333891F3969E100BA5F1F /* btn_close_big.png */,
 				0BC302801F26DAB000B54FBD /* medal.png */,
 				0B455A451F126EB8001FF2FF /* btn_close.png */,
@@ -880,6 +883,7 @@
 				0B7ED4931E71CF4500AAA44E /* Home@1x.png in Resources */,
 				0B60ED321E84B42C00A6F35A /* CampaignAvatar.png in Resources */,
 				7951C2531E7889890036A8F1 /* Notificationsx36.png in Resources */,
+				0B28DD7E1FB0140000F2FEF0 /* facebook_share.png in Resources */,
 				0B7ED4611E70FC3E00AAA44E /* Home@3x.png in Resources */,
 				0B7ED4461E70F9DC00AAA44E /* Icon_87.png in Resources */,
 				0B7ED4661E70FC3E00AAA44E /* Notifications_active@2x.png in Resources */,
@@ -1276,7 +1280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xefour.sharescore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d6124d09-acc8-4144-aef6-a5e105d30bc9";
+				PROVISIONING_PROFILE = "b5300cdb-9f5e-463b-845b-64fcf3525ac4";
 				PROVISIONING_PROFILE_SPECIFIER = "ShareScore Development Provisioning";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sharescore/Bridge-Header.h";
 				SWIFT_VERSION = 3.0;

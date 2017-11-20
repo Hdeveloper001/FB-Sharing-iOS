@@ -237,10 +237,6 @@ class SharePhotoViewController: UIViewController, UITableViewDataSource, UITable
                                         
                                         self.saveFBPostData(fb_postId: fbId, caption: caption)
                                         
-                                        let alert = UIAlertController(title: "Alert", message: "Facebook Post succeeded", preferredStyle: UIAlertControllerStyle.alert)
-                                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: self.moveToHomescreen))
-                                        self.present(alert, animated: true, completion: nil)
-                                        
                                     }catch {
                                         let alert = UIAlertController(title: "Alert", message: "Facebook Post Failed", preferredStyle: UIAlertControllerStyle.alert)
                                         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
@@ -341,17 +337,15 @@ class SharePhotoViewController: UIViewController, UITableViewDataSource, UITable
             
             switch response.result {
             case .success(_):
-                let jsonObject = JSON(response.result.value!)
-                let status: String = jsonObject["status"].stringValue
-                if (status == "success"){
-                    
-                }else{
-                    
-                }
+                let alert = UIAlertController(title: "Alert", message: "Facebook Post succeeded", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: self.moveToHomescreen))
+                self.present(alert, animated: true, completion: nil)
                 break
             case .failure(let error):
                 print(error)
-                
+                let alert = UIAlertController(title: "Alert", message: "Facebook Post Failed", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
                 break
             }
         }

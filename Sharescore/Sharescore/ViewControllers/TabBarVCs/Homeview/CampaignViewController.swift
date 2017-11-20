@@ -10,7 +10,7 @@ import UIKit
 import Social
 import SwiftyJSON
 import Alamofire
-import MBProgressHUD
+import SVProgressHUD
 
 class CampaignViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
@@ -102,7 +102,6 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
     
     var timer = Timer()
     var loadfinished = false
-    var loadingNotification:MBProgressHUD? = nil
     var registeredIdCount : Int = 0
     var stoploading = false
     var myApplication : Applicant? = nil
@@ -159,7 +158,7 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
         refreshControl.addTarget(self, action: #selector(refreshAllDatas), for: .valueChanged)
         tableView.addSubview(refreshControl)
         
-        getSSEDetail()
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         // check notification
@@ -167,6 +166,7 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
         if (CURRENT_SSE.ssName == ""){
             _ = self.navigationController?.popViewController(animated: true)
         }
+        getSSEDetail()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -260,18 +260,6 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
         }
     }
     
-    func checkLoadingStatus()
-    {
-        if (loadfinished)
-        {
-            if (stoploading)
-            {
-                self.loadingNotification?.hide(animated: true)
-            }
-            stoploading = true
-        }
-    }
-    
     // MARK - GET LIKES FROM FACEBOOK
     func GetSharescoreLikesFromFacebook(fbId : String, index : Int){
         
@@ -346,7 +334,7 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
     
     
     func getSSEDetail() -> Void{
-        
+        SVProgressHUD.show()
         let parameters = ["access_token": USER.deviceToken, "id": CURRENT_SSE.id]
         
         Alamofire.request(kAPI_GetSSEDetail, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON { (responseData) -> Void in
@@ -355,6 +343,7 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
             }else{
                 self.refreshControl.endRefreshing()
             }
+            SVProgressHUD.popActivity()
             if((responseData.result.value) != nil) {
                 if (responseData.result.isSuccess){
                     let swiftyJsonVar = JSON(responseData.result.value!)
@@ -544,7 +533,8 @@ class CampaignViewController: UIViewController, UITableViewDataSource, UITableVi
     }
 
     override func viewWillDisappear(_ animated: Bool) {
-
+        SVProgressHUD.popActivity()
+        
     }
     
     func popUpToHomeViewController(){

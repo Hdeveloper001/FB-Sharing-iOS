@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.200875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
             landmarkName = "GetSharescoreLikesFromFacebook(fbId:index:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.201003"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
             landmarkName = "GetSharescoreLikesFromFacebook(fbId:index:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.422504"
+            timestampString = "531712527.235547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -54,31 +54,31 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Sharescore.FConnectViewController.getFBUserData () -&gt; ()"
+                  symbolName = "Sharescore.FConnectViewController.getFBUserData() -&gt; ()"
                   moduleName = "Sharescore"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Working/201703/Kevin%20iOS%20and%20Backend/working/Sharescore/Sharescore/ViewControllers/FConnectViewController.swift"
-                  timestampString = "524607310.068895"
+                  timestampString = "531683654.222614"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
-                  offsetFromSymbolStart = "2020">
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "3944">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Sharescore.FConnectViewController.(getFBUserData () -&gt; ()).(closure #1)"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sharescore.FConnectViewController.getFBUserData() -&gt; ()"
                   moduleName = "Sharescore"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Working/201703/Kevin%20iOS%20and%20Backend/working/Sharescore/Sharescore/ViewControllers/FConnectViewController.swift"
-                  timestampString = "524607310.071968"
+                  timestampString = "531683654.225497"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "32">
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "40">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.423355"
+            timestampString = "531712527.23588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "149"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.423977"
+            timestampString = "531712527.236071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.424557"
+            timestampString = "531712527.236329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "154"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/SSEvents/SSEvent.swift"
-            timestampString = "523898525.23009"
+            timestampString = "531712527.236541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "120"
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Addview/CameraViewController.swift"
-            timestampString = "520264157.598783"
+            timestampString = "532833995.532611"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
             landmarkName = "click_btn_TakePhoto(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/SSEvents/SSEvent.swift"
-            timestampString = "523895572.201927"
+            timestampString = "531712527.23717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.201507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "251"
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Addview/CameraViewController.swift"
-            timestampString = "521138113.848606"
+            timestampString = "532833995.532768"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "click_btn_TakePhoto(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -298,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.201635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "382"
-            endingLineNumber = "382"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
             landmarkName = "getSSEDetail()"
             landmarkType = "7">
          </BreakpointContent>
@@ -314,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.201711"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "363"
-            endingLineNumber = "363"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
             landmarkName = "getSSEDetail()"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "527015610.772529"
+            timestampString = "532842339.201785"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.201882"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "217"
@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.201989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "486"
-            endingLineNumber = "486"
+            startingLineNumber = "475"
+            endingLineNumber = "475"
             landmarkName = "animateCircle(duration:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -378,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.202106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "427"
-            endingLineNumber = "427"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
             landmarkName = "addAnimationLayer(duration:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,7 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/HomeViewController.swift"
-            timestampString = "527136486.829854"
+            timestampString = "532841361.882598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.425558"
+            timestampString = "531712527.237956"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "142"
@@ -474,7 +474,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/SSEvents/SSEvent.swift"
-            timestampString = "523895572.201927"
+            timestampString = "531712527.238227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -570,7 +570,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Notificationview/Notifi_DetailViewController.swift"
-            timestampString = "524164670.6425"
+            timestampString = "532842339.202538"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -682,11 +682,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269618.501048"
+            timestampString = "532842339.203526"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "358"
-            endingLineNumber = "358"
+            startingLineNumber = "347"
+            endingLineNumber = "347"
             landmarkName = "getSSEDetail()"
             landmarkType = "7">
          </BreakpointContent>
@@ -698,7 +698,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.426929"
+            timestampString = "531712527.238971"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "135"
@@ -762,7 +762,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/HomeViewController.swift"
-            timestampString = "527139627.085811"
+            timestampString = "532841361.884504"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -778,7 +778,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/HomeViewController.swift"
-            timestampString = "527136486.829854"
+            timestampString = "532841361.884582"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -810,7 +810,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.427173"
+            timestampString = "531712527.239367"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "203"
@@ -874,12 +874,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.427342"
+            timestampString = "531712527.239602"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "168"
             endingLineNumber = "168"
-            landmarkName = "initAppBadge()"
+            landmarkName = "PlayAudio()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -890,7 +890,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/SSEvents/SSEvent.swift"
-            timestampString = "528002224.003061"
+            timestampString = "531712527.239797"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
@@ -938,7 +938,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.427445"
+            timestampString = "531712527.240217"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "179"
@@ -954,7 +954,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.428213"
+            timestampString = "531712527.240415"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "183"
@@ -970,7 +970,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.428883"
+            timestampString = "531712527.240591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
@@ -986,7 +986,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.429474"
+            timestampString = "531712527.240825"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -1034,7 +1034,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.43001"
+            timestampString = "531712527.240962"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
@@ -1050,7 +1050,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.430529"
+            timestampString = "531712527.241181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -1066,7 +1066,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/FConnectViewController.swift"
-            timestampString = "531298767.431046"
+            timestampString = "531712527.24137"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
@@ -1082,7 +1082,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/CampaignViewController.swift"
-            timestampString = "528269448.15365"
+            timestampString = "532842339.204254"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "173"
@@ -1098,7 +1098,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/SharePhotoViewController.swift"
-            timestampString = "530941850.006908"
+            timestampString = "532832969.823202"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "238"
@@ -1119,8 +1119,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
             endingLineNumber = "61"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "initUserDataWithJSON(json:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1135,8 +1135,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
             endingLineNumber = "88"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "initUserDataWithDictionary(value:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1178,7 +1178,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.431713"
+            timestampString = "531712527.241815"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -1226,7 +1226,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.431796"
+            timestampString = "531712527.242056"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -1242,13 +1242,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.431862"
+            timestampString = "531712527.242316"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
             endingLineNumber = "118"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
+            landmarkName = "application(_:didFailToRegisterForRemoteNotificationsWithError:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1306,12 +1306,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sharescore/AppDelegate.swift"
-            timestampString = "531298767.431956"
+            timestampString = "531712527.242501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "75"
             endingLineNumber = "75"
             landmarkName = "application(_:didRegisterForRemoteNotificationsWithDeviceToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/SharePhotoViewController.swift"
+            timestampString = "532832969.823506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "saveFBPostData(fb_postId:caption:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sharescore.SharePhotoViewController.saveFBPostData(fb_postId: Swift.String, caption: Swift.String) -&gt; ()"
+                  moduleName = "Sharescore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Working/201703/Kevin%20iOS%20and%20Backend/working/Sharescore/Sharescore/ViewControllers/TabBarVCs/Homeview/SharePhotoViewController.swift"
+                  timestampString = "531629625.985767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "336"
+                  endingLineNumber = "336"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in Sharescore.SharePhotoViewController.saveFBPostData(fb_postId: Swift.String, caption: Swift.String) -&gt; ()"
+                  moduleName = "Sharescore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Working/201703/Kevin%20iOS%20and%20Backend/working/Sharescore/Sharescore/ViewControllers/TabBarVCs/Homeview/SharePhotoViewController.swift"
+                  timestampString = "531629625.988181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "338"
+                  endingLineNumber = "338"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/SharePhotoViewController.swift"
+            timestampString = "532832969.823566"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "338"
+            endingLineNumber = "338"
+            landmarkName = "saveFBPostData(fb_postId:caption:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sharescore/ViewControllers/TabBarVCs/Homeview/PhotoViewController.swift"
+            timestampString = "532833455.057871"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "btnCloseClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

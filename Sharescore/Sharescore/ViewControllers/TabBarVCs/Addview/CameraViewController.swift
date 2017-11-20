@@ -223,6 +223,7 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate, UII
         if photoTaken {return}
         
         if let videoConnection = stillImageOutput.connection(withMediaType: AVMediaTypeVideo) {
+            self.photoTaken = true
             stillImageOutput.captureStillImageAsynchronously(from: videoConnection) {
                 (imageDataSampleBuffer, error) -> Void in
                 
@@ -236,6 +237,11 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate, UII
                 let cropRect = CGRect(x: CGFloat(outputRect.origin.x * width), y: CGFloat(outputRect.origin.y * height), width: CGFloat(outputRect.size.width * width), height: CGFloat(outputRect.size.height * height))
                 let cropCGImage: CGImage = takenCGImage!.cropping(to: cropRect)!
                 takenImage = UIImage(cgImage: cropCGImage, scale: 1, orientation: (takenImage?.imageOrientation)!)
+                
+                let systemVersion = UIDevice.current.systemVersion
+                let version = Int(systemVersion.split(separator: ".")[0])
+                
+                let orientation = version == 11 ? UIImageOrientation.up : (takenImage?.imageOrientation)!
 
                 if (takenImage == nil){
                     // Retake photo
@@ -243,7 +249,10 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate, UII
                 else {
                     if let compressedData = UIImageJPEGRepresentation(takenImage!, 0.2) {
                         let jpgImage: UIImage? = UIImage(data: compressedData)
-                        self.selectedImage = self.resizeImage(image: jpgImage!, newWidth: 500)
+                        self.selectedImage = UIImage(cgImage : self.resizeImage(image: jpgImage!, newWidth: 500).cgImage!,
+                                                     scale: 1, orientation: orientation)
+                        
+                        
                     }
                 }
                 self.captureSession.stopRunning()
@@ -253,7 +262,7 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate, UII
                 //UIImageWriteToSavedPhotosAlbum(self.selectedImage!, self, nil, nil)
 
                 
-                self.photoTaken = true
+                
                 self.btn_Next.setTitle("Next", for: .normal)
             }
         }
